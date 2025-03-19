@@ -17,8 +17,10 @@ def parse_log_file(file_path):
     return [log for log in logs if log]
 
 def analyze_logs(logs):
+    print(logs)
     df = pd.DataFrame(logs)
-    df['status'] = df['status'].astype(int)
+    df['errors'] = df['status'].astype(int)
+    df['status'] = df['status'][0]
     
     # Compter les occurrences de chaque code de statut HTTP
     status_counts = df['status'].value_counts()
