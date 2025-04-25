@@ -1,0 +1,11 @@
+[Fri Apr 25 08:57:07.308053 2025] [so:warn] [pid 1:tid 1] AH01574: module mpm_prefork_module is already loaded, skipping
+[Fri Apr 25 08:57:07.316483 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.63 (Unix) configured -- resuming normal operations
+[Fri Apr 25 08:57:07.316811 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri Apr 25 09:07:47.199313 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Fri Apr 25 09:09:55.124897 2025] [so:warn] [pid 1:tid 1] AH01574: module mpm_prefork_module is already loaded, skipping
+[Fri Apr 25 09:09:55.133750 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.63 (Unix) configured -- resuming normal operations
+[Fri Apr 25 09:09:55.134242 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri Apr 25 09:17:47.668461 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Fri Apr 25 09:18:24.780992 2025] [so:warn] [pid 1:tid 1] AH01574: module mpm_prefork_module is already loaded, skipping
+[Fri Apr 25 09:18:24.810587 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.63 (Unix) configured -- resuming normal operations
+[Fri Apr 25 09:18:24.810930 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
