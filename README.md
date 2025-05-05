@@ -12,37 +12,13 @@ Ce projet vise à analyser les fichiers journaux des serveurs HTTP Apache en uti
 - Utiliser ELK pour une analyse avancée des journaux.
 
 ## Technologies Utilisées
-- **Langages** : Python, R
+- **Langages** : Python
 - **Outils** : Logstash, Elasticsearch, Kibana
-- **Formats de fichiers journaux** : Apache Access Log, JSON, CSV
+- **Formats de fichiers journaux** : Apache Access Log
 
-## Installation
-1. **Prérequis** :
-   - Docker et Docker Compose installés
-   - Python 3.x installé avec pip
-   - R installé si analyse via R
-   
-2. **Installation de ELK Stack**
-   ```bash
-   docker-compose up -d
-   ```
-   
-3. **Installation des dépendances Python**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Utilisation
-1. **Démarrer le serveur ELK**
-   ```bash
-   docker-compose up -d
-   ```
-2. **Exécuter l'analyse avec Python**
-   ```bash
-   python analyse_logs.py
-   ```
-3. **Accéder à Kibana**
-   - Rendez-vous sur `http://localhost:5601` pour visualiser les journaux analysés.
+## Prérequis :
+- Docker et Docker Compose installés
+- Python 3.x installé avec pip
 
 ## Délivrables
 - Rapport et annexes du projet
@@ -53,5 +29,4 @@ Ce projet vise à analyser les fichiers journaux des serveurs HTTP Apache en uti
 
 ## Auteur
 - Projet encadré par **Zainab KHALLOUF**
-- Contact : zainab.khallouf@univ-ubs.fr
-
+- Réalisé par Elliot Fauviau, Hector Hodebourg-de-Verbois, Marceau Lacroix et Ewen Dejan
