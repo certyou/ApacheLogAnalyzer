@@ -26,6 +26,7 @@ Ce projet vise à analyser les fichiers journaux des serveurs HTTP Apache en uti
 
 ## Ressources
 - [Optimisez la sécurité informatique grâce au monitoring](https://openclassrooms.com/fr/courses/1750566-optimisez-la-securite-informatique-grace-au-monitoring)
+- [Internet measurement and data analysis](https://www.iijlab.net/~kjc/classes/sfc2016s-measurement/)
 
 ## Auteur
 - Projet encadré par **Zainab KHALLOUF**
