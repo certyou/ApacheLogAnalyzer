@@ -21,7 +21,7 @@ def round_down_to_5min(dt):
 bins = defaultdict(lambda: {"requests": 0, "bytes": 0})
 
 # Read and parse the log file
-with open("/Users/ewen/MyProg/PEI2/projetS2/python_script/src/sample_access_log", "r") as f:
+with open("/logs/access_log", "r") as f:
     for line in f:
         match = LOG_PATTERN.search(line)
         if match:
